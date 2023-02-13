@@ -71,6 +71,7 @@ export class CustomerControllerBase {
         id: true,
         lastName: true,
         phone: true,
+        phone2: true,
         updatedAt: true,
       },
     });
@@ -103,6 +104,7 @@ export class CustomerControllerBase {
         id: true,
         lastName: true,
         phone: true,
+        phone2: true,
         updatedAt: true,
       },
     });
@@ -136,6 +138,7 @@ export class CustomerControllerBase {
         id: true,
         lastName: true,
         phone: true,
+        phone2: true,
         updatedAt: true,
       },
     });
@@ -186,6 +189,7 @@ export class CustomerControllerBase {
           id: true,
           lastName: true,
           phone: true,
+          phone2: true,
           updatedAt: true,
         },
       });
@@ -227,6 +231,7 @@ export class CustomerControllerBase {
           id: true,
           lastName: true,
           phone: true,
+          phone2: true,
           updatedAt: true,
         },
       });

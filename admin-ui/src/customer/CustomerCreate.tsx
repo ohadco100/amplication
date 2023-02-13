@@ -33,6 +33,7 @@ export const CustomerCreate = (props: CreateProps): React.ReactElement => {
           <SelectArrayInput optionText={OrderTitle} />
         </ReferenceArrayInput>
         <TextInput label="Phone" source="phone" />
+        <TextInput label="phone2" source="phone2" />
       </SimpleForm>
     </Create>
   );

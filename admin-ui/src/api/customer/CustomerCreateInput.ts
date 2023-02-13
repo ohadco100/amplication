@@ -8,4 +8,5 @@ export type CustomerCreateInput = {
   lastName?: string | null;
   orders?: OrderCreateNestedManyWithoutCustomersInput;
   phone?: string | null;
+  phone2?: string | null;
 };

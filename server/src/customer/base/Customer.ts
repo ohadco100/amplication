@@ -97,6 +97,17 @@ class Customer {
   phone!: string | null;
 
   @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  phone2!: string | null;
+
+  @ApiProperty({
     required: true,
   })
   @IsDate()
