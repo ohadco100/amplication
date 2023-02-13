@@ -10,5 +10,6 @@ export type Customer = {
   lastName: string | null;
   orders?: Array<Order>;
   phone: string | null;
+  phone2: string | null;
   updatedAt: Date;
 };

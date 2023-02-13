@@ -44,6 +44,7 @@ export const AddressShow = (props: ShowProps): React.ReactElement => {
             <TextField label="ID" source="id" />
             <TextField label="Last Name" source="lastName" />
             <TextField label="Phone" source="phone" />
+            <TextField label="phone2" source="phone2" />
             <DateField source="updatedAt" label="Updated At" />
           </Datagrid>
         </ReferenceManyField>

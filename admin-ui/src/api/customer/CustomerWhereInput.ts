@@ -11,4 +11,5 @@ export type CustomerWhereInput = {
   lastName?: StringNullableFilter;
   orders?: OrderListRelationFilter;
   phone?: StringNullableFilter;
+  phone2?: StringNullableFilter;
 };
